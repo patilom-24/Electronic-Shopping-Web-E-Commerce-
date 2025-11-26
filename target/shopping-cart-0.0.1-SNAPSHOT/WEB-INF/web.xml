@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>shopping-cart</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>AddProductSrv</servlet-name>
+    <servlet-class>com.om.srv.AddProductSrv</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AddProductSrv</servlet-name>
+    <url-pattern>/AddProductSrv</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AddtoCart</servlet-name>
+    <servlet-class>com.om.srv.AddtoCart</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AddtoCart</servlet-name>
+    <url-pattern>/AddtoCart</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>fansMessage</servlet-name>
+    <servlet-class>com.om.srv.FansMessage</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>fansMessage</servlet-name>
+    <url-pattern>/fansMessage</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>LoginSrv</servlet-name>
+    <servlet-class>com.om.srv.LoginSrv</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LoginSrv</servlet-name>
+    <url-pattern>/LoginSrv</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>LogoutSrv</servlet-name>
+    <servlet-class>com.om.srv.LogoutSrv</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LogoutSrv</servlet-name>
+    <url-pattern>/LogoutSrv</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>com.om.srv.OrderServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/OrderServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>RegisterSrv</servlet-name>
+    <servlet-class>com.om.srv.RegisterSrv</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>RegisterSrv</servlet-name>
+    <url-pattern>/RegisterSrv</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>RemoveProductSrv</servlet-name>
+    <servlet-class>com.om.srv.RemoveProductSrv</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>RemoveProductSrv</servlet-name>
+    <url-pattern>/RemoveProductSrv</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ShipmentServlet</servlet-name>
+    <servlet-class>com.om.srv.ShipmentServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ShipmentServlet</servlet-name>
+    <url-pattern>/ShipmentServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ShowImage</servlet-name>
+    <servlet-class>com.om.srv.ShowImage</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ShowImage</servlet-name>
+    <url-pattern>/ShowImage</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>UpdateProductSrv</servlet-name>
+    <servlet-class>com.om.srv.UpdateProductSrv</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UpdateProductSrv</servlet-name>
+    <url-pattern>/UpdateProductSrv</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>UpdateToCart</servlet-name>
+    <servlet-class>com.om.srv.UpdateToCart</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UpdateToCart</servlet-name>
+    <url-pattern>/UpdateToCart</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+</web-app>
